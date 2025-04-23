@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/cameron-pub/static/css/main.117c1c4e.css",
-    "main.js": "/cameron-pub/static/js/main.0521ca93.js",
-    "static/media/app-mockup.png": "/cameron-pub/static/media/app-mockup.40fc28e12f14697970bb.png",
-    "static/media/logo.png": "/cameron-pub/static/media/logo.8c43ed914d1f4443eaa7.png",
-    "static/media/apple-white.png": "/cameron-pub/static/media/apple-white.8ff3ac6c7d4bc4309cbc.png",
-    "static/media/google.png": "/cameron-pub/static/media/google.682297f9d0aab73fda73.png",
-    "index.html": "/cameron-pub/index.html",
-    "main.117c1c4e.css.map": "/cameron-pub/static/css/main.117c1c4e.css.map",
-    "main.0521ca93.js.map": "/cameron-pub/static/js/main.0521ca93.js.map"
+    "main.css": "/static/css/main.117c1c4e.css",
+    "main.js": "/static/js/main.70960cec.js",
+    "static/media/app-mockup.png": "/static/media/app-mockup.40fc28e12f14697970bb.png",
+    "static/media/logo.png": "/static/media/logo.8c43ed914d1f4443eaa7.png",
+    "static/media/apple-white.png": "/static/media/apple-white.8ff3ac6c7d4bc4309cbc.png",
+    "static/media/google.png": "/static/media/google.682297f9d0aab73fda73.png",
+    "index.html": "/index.html",
+    "main.117c1c4e.css.map": "/static/css/main.117c1c4e.css.map",
+    "main.70960cec.js.map": "/static/js/main.70960cec.js.map"
   },
   "entrypoints": [
     "static/css/main.117c1c4e.css",
-    "static/js/main.0521ca93.js"
+    "static/js/main.70960cec.js"
   ]
 }
