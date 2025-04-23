@@ -32,10 +32,10 @@ export default function App() {
             />
             Download on App Store
           </a>
-          <a href="#" className="lp-button outline">
+          {/* <a href="#" className="lp-button outline">
             <img src={GoogleIcon} alt="Google Play" className="lp-store-icon" />
             Get it on Google Play
-          </a>
+          </a> */}
         </div>
       </section>
 
