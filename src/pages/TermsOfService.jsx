@@ -1,0 +1,208 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import "./TermsOfService.css";
+
+function TermsOfService() {
+  return (
+    <div className="tos-container max-w-4xl mx-auto py-8 px-4">
+      <p className="tos-text mb-4">
+        <Link to="/" className="tos-link underline hover:text-blue-500">
+          Back to Home
+        </Link>
+      </p>
+      <h1 className="tos-title text-3xl font-bold mb-4">Terms of Service</h1>
+      <p className="tos-updated text-sm text-gray-600 mb-6">
+        Last updated: April 9, 2025
+      </p>
+      <p className="tos-text mb-4">
+        These Terms of Service (“Terms”) govern your use of the Cameron app
+        (“App”), provided by Afternoon Products, LLC, located at 1 Park Ave,
+        Unit G-1, Hampton, NH 03842 (“we,” “us,” or “our”).
+      </p>
+      <p className="tos-text mb-6">
+        By accessing or using the App, you agree to these Terms. If you do not
+        agree, do not use the App.
+      </p>
+
+      <section className="tos-section">
+        <h2 className="tos-heading text-xl font-semibold mb-2">
+          1. Use of the App
+        </h2>
+        <p className="tos-text mb-4">
+          Cameron allows you to interact with an AI system using your camera or
+          photo uploads. You may take photos, ask questions, and receive
+          AI-generated responses. The App is intended for users aged 13 and
+          older.
+        </p>
+      </section>
+
+      <section className="tos-section">
+        <h2 className="tos-heading text-xl font-semibold mb-2">
+          2. Subscriptions and Payments
+        </h2>
+        <p className="tos-text mb-4">
+          Cameron offers in-app subscriptions through Apple In-App Purchases,
+          managed via your Apple ID.
+        </p>
+        <ul className="tos-list list-disc pl-6 mb-4">
+          <li>
+            Subscribers get access to enhanced usage limits, though we reserve
+            the right to cap usage to prevent abuse or system strain.
+          </li>
+          <li>
+            A free tier is available that allows one question-and-answer
+            interaction per day.
+          </li>
+          <li>
+            All billing, trial periods, renewals, and cancellations are handled
+            via Apple. For questions, please visit{" "}
+            <a
+              href="https://support.apple.com"
+              className="tos-link underline hover:text-blue-500"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Apple Support
+            </a>
+            .
+          </li>
+        </ul>
+      </section>
+
+      <section className="tos-section">
+        <h2 className="tos-heading text-xl font-semibold mb-2">
+          3. User Data and Privacy
+        </h2>
+        <p className="tos-text mb-4">
+          You may upload images into the App for AI analysis, but we do not
+          store your images on our servers. Images remain on your device unless
+          you explicitly choose to export or share them.
+        </p>
+        <ul className="tos-list list-disc pl-6 mb-4">
+          <li>
+            We do not require account creation. No email, phone number, or login
+            is necessary to use the App.
+          </li>
+          <li>
+            We use third-party tools including Firebase (analytics), OpenAI API
+            (AI responses), and RevenueCat (subscription management). These
+            services may collect data to operate effectively. For details, see
+            our{" "}
+            <a
+              href="/privacy"
+              className="tos-link underline hover:text-blue-500"
+            >
+              Privacy Policy
+            </a>
+            .
+          </li>
+        </ul>
+      </section>
+
+      <section className="tos-section">
+        <h2 className="tos-heading text-xl font-semibold mb-2">
+          4. User Content and Conduct
+        </h2>
+        <p className="tos-text mb-4">
+          You agree not to upload content that is illegal, harmful, offensive,
+          or violates the rights of others.
+        </p>
+        <p className="tos-text mb-4">
+          You retain ownership of your photos and prompts, but grant us a
+          limited, non-exclusive license to process your inputs and generate
+          responses, solely for the purpose of delivering the App's
+          functionality.
+        </p>
+      </section>
+
+      <section className="tos-section">
+        <h2 className="tos-heading text-xl font-semibold mb-2">
+          5. AI Disclaimer
+        </h2>
+        <p className="tos-text mb-4">
+          Cameron uses artificial intelligence to generate responses based on
+          image inputs and prompts. AI output may be:
+        </p>
+        <ul className="tos-list list-disc pl-6 mb-4">
+          <li>Inaccurate, incomplete, or speculative</li>
+          <li>Not suitable for medical, legal, or financial advice</li>
+        </ul>
+        <p className="tos-text mb-4">
+          Use the App for entertainment and general informational purposes only.
+        </p>
+      </section>
+
+      <section className="tos-section">
+        <h2 className="tos-heading text-xl font-semibold mb-2">
+          6. Intellectual Property
+        </h2>
+        <p className="tos-text mb-4">
+          All branding, code, and AI integration are the property of Afternoon
+          Products, LLC or its licensors. You may not reverse-engineer,
+          replicate, or commercialize the App without our written consent.
+        </p>
+      </section>
+
+      <section className="tos-section">
+        <h2 className="tos-heading text-xl font-semibold mb-2">
+          7. Termination
+        </h2>
+        <p className="tos-text mb-4">
+          We may suspend or terminate your access if we believe you are
+          violating these Terms or misusing the App.
+        </p>
+      </section>
+
+      <section className="tos-section">
+        <h2 className="tos-heading text-xl font-semibold mb-2">
+          8. Changes to the App or Terms
+        </h2>
+        <p className="tos-text mb-4">
+          We may update or change the App or these Terms at any time. Continued
+          use after changes means you accept the updated Terms.
+        </p>
+      </section>
+
+      <section className="tos-section">
+        <h2 className="tos-heading text-xl font-semibold mb-2">
+          9. Limitation of Liability
+        </h2>
+        <p className="tos-text mb-4">
+          To the fullest extent permitted by law, we are not liable for:
+        </p>
+        <ul className="tos-list list-disc pl-6 mb-4">
+          <li>Indirect or consequential damages</li>
+          <li>Loss of data, profits, or use</li>
+          <li>AI-generated errors, omissions, or interpretations</li>
+        </ul>
+        <p className="tos-text mb-4">
+          Use the App at your own discretion and risk.
+        </p>
+      </section>
+
+      <section className="tos-section">
+        <h2 className="tos-heading text-xl font-semibold mb-2">
+          10. Contact Us
+        </h2>
+        <p className="tos-text mb-4">
+          For any questions or support needs, contact us at:
+        </p>
+        <p className="tos-text mb-4">
+          Afternoon Products, LLC
+          <br />
+          1 Park Ave, Unit G-1
+          <br />
+          Hampton, NH 03842
+        </p>
+      </section>
+
+      <p className="tos-text mb-4">
+        <Link to="/" className="tos-link underline hover:text-blue-500">
+          Back to Home
+        </Link>
+      </p>
+    </div>
+  );
+}
+
+export default TermsOfService;
