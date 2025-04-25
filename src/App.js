@@ -10,9 +10,9 @@ function App() {
     <div className="flex flex-col min-h-screen">
       <main className="flex-grow p-4">
         <Routes>
-          <Route path="/" element={<LandingPage />} />
-          <Route path="/tos" element={<TermsOfService />} />
-          <Route path="/support" element={<Support />} />
+          <Route exact path="/" element={<LandingPage />} />
+          <Route exact path="/tos" element={<TermsOfService />} />
+          <Route exact path="/support" element={<Support />} />
         </Routes>
       </main>
       <Footer />
