@@ -1,0 +1,15 @@
+// assets/main.scss
+
+// 1. Tell Dart Sass to load Minima as a module
+@use "minima/base";
+@use "minima/layout";
+@use "minima/syntax-highlighting";
+
+// 2. Override any Minima defaults (if you need to), but use the new color API:
+@use "sass:color";
+
+$grey-color-light: color.scale(minima.$grey-color, $lightness: 40%) !default;
+$grey-color-dark: color.scale(minima.$grey-color, $lightness: -25%) !default;
+
+// 3. Finally, import your custom stylesheet
+@use "styles"; // points at assets/_styles.scss (or wherever you put the cleaned-up CSS)

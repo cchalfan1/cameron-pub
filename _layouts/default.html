@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/style.css' | relative_url }}"
+    />
+  </head>
+  <body>
+    {{ content }}
+  </body>
+  <footer class="lp-footer">
+    <p>
+      © {{ "now" | date: "%Y" }} Afternoon Products, LLC. All rights reserved.
+    </p>
+    <nav class="lp-footer-nav">
+      <a href="{{ '/tos/' | relative_url }}" class="lp-footer-link"
+        >Terms of Service</a
+      >
+      <span class="lp-footer-sep">|</span>
+      <a href="{{ '/support/' | relative_url }}" class="lp-footer-link"
+        >Support</a
+      >
+    </nav>
+  </footer>
+</html>
