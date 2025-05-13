@@ -7,6 +7,10 @@ function Footer() {
         © {new Date().getFullYear()} Afternoon Products, LLC. All rights
         reserved.
       </p>
+      <Link to="/privacy" className="underline hover:text-blue-300">
+        Privacy
+      </Link>
+      &nbsp;|&nbsp;
       <Link to="/tos" className="underline hover:text-blue-300">
         Terms of Service
       </Link>
